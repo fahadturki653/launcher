@@ -1,12 +1,16 @@
-# R5Flowstate Launcher
+# R5Flowstate Launcher — Linux (native)
 
-Thin Windows shell for R5Flowstate. It is not the game.
+Native Linux launcher for R5Flowstate. It is not the game.
 
-Players install the shell with `R5FlowstateSetup.exe`, then pick a separate
-folder for game content. The game never lives inside the launcher tree or
-Program Files.
+The launcher itself runs natively on Linux — only the game and the EA App
+run under Proton, in the game's prefix.
 
-This repo is the shell only. No paks, no audio, no `r5apex.exe`.
+Players install the launcher with `./install.sh`, then pick a separate
+folder for game content. The game never lives inside the launcher tree.
+(On Windows, the same source builds the Windows shell and installs with
+`R5FlowstateSetup.exe`.)
+
+This repo is the launcher only. No paks, no audio, no `r5apex.exe`.
 
 ## Build
 
